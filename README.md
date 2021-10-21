@@ -8,6 +8,16 @@ Accès
 // http://localhost:8080/ ou http://192.168.1.16:8080/ -> 
 ```
 
+:bulb: **Développé avec :vuejs,html5,css3,sass,pwa** 
+
+## Table des matières
+
+- [Install](#install)
+- [API](#api)
+- [Rendu](#rendu)
+- [Vérifications](#verifications)
+- [License](#license)
+
 ## Install
 
 Installer NodeJs en allant sur le site https://nodejs.org/en/ et en le téléchargeant.
@@ -42,38 +52,18 @@ accès Token : https://pole-emploi.io/data/documentation/utilisation-api-pole-em
 
 Exemple : https://labonneboite.pole-emploi.fr/
 
-https://api.emploi-store.fr/partenaire/labonneboite/v1/company/?distance=30&latitude=49.119146&longitude=6.17602&rome_codes=M1607
-
-https://api.emploi-store.fr/partenaire/labonneboite/v1/company/?latitude=48.856614&longitude=2.3522219&rome_codes=M1805&sort=score&page_size=10&page=$%7Bpage%7D
+### Rendu
 
 
-## Project setup
-```
-npm install
-```
+[![ bevouac screenshot](page-destop.png)]
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Vérifications
 
 - **La page est responsive, fonctionne sur Chrome, Firefox, Edge.**:
-- **Le score au niveau des indicateurs de chrome lighthouse**:
-- **Validation W3C : https://validator.w3.org/#validate_by_upload**:
-- **Vérification chargement page : https://developers.google.com/speed/pagespeed/insights/?hl=fr**:
-- **Convertisseur WEBP : https://www.onlineimagetool.com/fr/convert-png-jpg-webp-gif#**:
+- **Le score au niveau des indicateurs de chrome lighthouse : Performances non optimisées - 100% en accessibilité - 87% en Best Practice - 100% en SEO - PWA**: 
+- **Validation W3C : https://validator.w3.org/#validate_by_upload : validé**: 
+- **Vérification chargement page : https://search.google.com/test/mobile-friendly/ : Page adaptée aux mobiles**:
 
 ## License
 
