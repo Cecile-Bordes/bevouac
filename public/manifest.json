@@ -1,0 +1,21 @@
+{
+    "name":"Bevouac TEST",
+    "short_name":"bevouac-test",
+    "start_url": "index.html",
+    "portée" : "./",
+    "display": "standalone",
+    "theme_color":"#0a313d",
+    "background_color":"#ecddcf",
+    "icons":[{
+        "src":"assets/img/android-chrome-192x192.png",
+        "sizes":"192x192",
+        "type":"image/png",
+        "purpose": "any maskable"
+        },
+        {
+            "src":"assets/img/android-chrome-512x512.png",
+            "sizes":"512x512",
+            "type":"image/png",
+            "purpose": "any maskable"
+        }]
+}

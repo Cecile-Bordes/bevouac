@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+    <meta name="description" content="Nos biens locatifs acquis par nos investisseurs, obtenus par nos chargés de projets." />
+    <!-- Favicons-->
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+    <meta name="theme-color" content="#0a313d" />
+    <meta name="msapplication-TileColor" content="#ecddcf">
+    <script type="application/ld+json">
+      {
+          "@context":"https://schema.org",
+          "@type":"WebPage",
+          "mainEntityOfPage":{
+              "@type":"WebPage",
+              "@id":https://www.bevouac.com
+          },
+          "headline":"Mon projet : Bevouac !",
+          "description":"Mon projet",
+          "articleBody":"",
+          "publisher":{
+              "@type":"Organization",
+              "name":"Bevouac",
+              "logo":{
+                  "@type":"ImageObject",
+                  "url":"./assets/img/LogoBevouacBLEU.png","height":"50","width":"155"
+              }
+          },
+          "author":{
+              "@type":"Person","name":"Bevouac"
+          },
+          "datePublished":"2021-10-21T00:00:00Z","dateModified":"2021-10-21T00:00:00Z",
+          "image":{
+              "@type":"ImageObject",
+              "url":https://www.bevouac.com
+          }
+      }
+  </script> 
+  <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>;
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                .register('sw.js')
+                .then(function() { console.log("Service Worker Registered"); });
+      }
+    </script>
+  </body>
+</html>

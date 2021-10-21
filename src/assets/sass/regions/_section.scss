@@ -1,0 +1,38 @@
+.section {
+  $el: &;
+
+  &__inner {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    grid-template-columns: repeat(1, 300px);
+    justify-content: center;
+  }
+
+  &__bevouac {
+    padding: 50px 10px 20px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 4px 8px 0;
+    transition: box-shadow 500ms cubic-bezier(0.22, 0.84, 0.57, 1.5);
+    background-color: $color-primary;
+    border-radius: 5px;
+
+    p {
+      color:$color-third;
+      font-size:0.813rem;
+      text-transform: uppercase;
+      line-height: 1.125rem;
+    }
+  }
+
+  
+  // DEVICE : LAPTOP
+
+  @media screen and (min-width: $laptop) {
+    &__inner {
+      padding: 80px 0 0;
+      grid-template-columns: repeat(2, 500px);
+    }
+
+  }
+}

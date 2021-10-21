@@ -1,0 +1,19 @@
+.header {
+  position: relative;
+  padding:1% 3%;
+
+  &__logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 106px;
+    height: auto;
+  }
+
+  @media screen and (min-width: $laptop) {
+    &__logo {
+      width: 300px;
+    }
+  }
+}
