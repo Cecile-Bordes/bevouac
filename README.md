@@ -8,7 +8,7 @@ Accès
 // http://localhost:8080/ ou http://192.168.1.16:8080/ -> 
 ```
 
-:bulb: **Développé avec :vuejs,html5,css3,sass,pwa** 
+:bulb: **Développé avec : vuejs, html5, css3, sass, pwa** 
 
 ## Table des matières
 
@@ -55,7 +55,7 @@ Exemple : https://labonneboite.pole-emploi.fr/
 ### Rendu
 
 
-[![ bevouac screenshot](page-destop.png)]
+[![ bevouac screenshot](page-destop.jpg)]
 
 
 ### Vérifications
