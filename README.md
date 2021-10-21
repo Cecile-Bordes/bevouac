@@ -36,6 +36,7 @@ $ cd src/assets/sass
 $ sass  --watch app.scss:app.css --style compressed // creation du .css et compression
 $ cd ../../
 $ npm run serve
+```
 
 ## API
 
